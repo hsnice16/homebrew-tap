@@ -28,8 +28,6 @@ class Tula < Formula
     end
   end
 
-  conflicts_with "tula-latest", because: "both install a tula binary"
-
   def install
     bin.install "tula"
   end
