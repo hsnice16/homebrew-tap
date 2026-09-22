@@ -2,28 +2,29 @@
 class Tula < Formula
   desc "Your true exposure, what breaks first, and more, across every venue at once."
   homepage "https://usetu.la"
-  version "0.3.1"
+  version "0.3.2"
   license "MIT"
 
   on_macos do
+    depends_on macos: :ventura
     on_arm do
-      url "https://github.com/hsnice16/tula/releases/download/v0.3.1/tula-v0.3.1-darwin-arm64.tar.gz"
-      sha256 "2ae4dde656a654196b1d6b6b7697ce3d3e1cec332aa8626cea191537301969d0"
+      url "https://github.com/hsnice16/tula/releases/download/v0.3.2/tula-v0.3.2-darwin-arm64.tar.gz"
+      sha256 "860655ed2d9a6674c55021908b3bdb03db5584945e47efa915b422c20afdaa72"
     end
     on_intel do
-      url "https://github.com/hsnice16/tula/releases/download/v0.3.1/tula-v0.3.1-darwin-x64.tar.gz"
-      sha256 "cf303f1b5e91bb640722652beba5ee6c132a0f3c211f67a95563548463ebdb4b"
+      url "https://github.com/hsnice16/tula/releases/download/v0.3.2/tula-v0.3.2-darwin-x64.tar.gz"
+      sha256 "8c94433456c66b3c4264ba236665792562fd7d62ffe587cb2869cf803be4dd8d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hsnice16/tula/releases/download/v0.3.1/tula-v0.3.1-linux-arm64.tar.gz"
-      sha256 "224a863d37706dd8a22ca96ace1e084dd65e2d803d8f56c1f0e4e12eea3cb86a"
+      url "https://github.com/hsnice16/tula/releases/download/v0.3.2/tula-v0.3.2-linux-arm64.tar.gz"
+      sha256 "c26190217c0a030b957ed09740a6bbeb48053c3bd29a935dfe94627481857f9a"
     end
     on_intel do
-      url "https://github.com/hsnice16/tula/releases/download/v0.3.1/tula-v0.3.1-linux-x64.tar.gz"
-      sha256 "381f0b65871aff7ce4b2068a5c62ee20dac11a3aa631369407e714888f054cca"
+      url "https://github.com/hsnice16/tula/releases/download/v0.3.2/tula-v0.3.2-linux-x64.tar.gz"
+      sha256 "32970d3f2a5b441a2d86580452e48a19779085dc4844231a774d4a70675c547f"
     end
   end
 
